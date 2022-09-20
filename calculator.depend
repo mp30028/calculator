@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1663571046 source:c:\users\extra\documents\cpp_projects\calculator\main.cpp
+	<iostream>
+	"parser.h"
+
+1663508797 c:\users\extra\documents\cpp_projects\calculator\include\utils.h
+	<string>
+
+1663508793 source:c:\users\extra\documents\cpp_projects\calculator\src\utils.cpp
+	"utils.h"
+	<algorithm>
+	<cctype>
+
+1663657835 c:\users\extra\documents\cpp_projects\calculator\include\parser.h
+	<string>
+
+1663658738 source:c:\users\extra\documents\cpp_projects\calculator\src\parser.cpp
+	"parser.h"
+	"utils.h"
+

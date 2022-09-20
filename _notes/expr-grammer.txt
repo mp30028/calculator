@@ -1,0 +1,21 @@
+expression  --> expression PLUS_OP term | expression MINUS_OP term | term
+term        --> term MULTIPLY_OP factor |term DIVIDE_OP factor | factor
+factor      --> exponent POWER_OP factor | exponent
+exponent    --> MINUS_OP exponent | final
+final       --> number | LEFT_BRACKET expression RIGHT_BRACKET
+number      --> sign + rest_number
+sign        --> PLUS_OP | MINUS_OP | EMPTY
+rest_number --> digits +
+PLUS_OP
+MINUS_OP
+MULTIPLY_OP
+DIVIDE_OP
+POWER_OP
+LEFT_BRACKET
+RIGHT_BRACKET
+
+
+number --> digits + terminator
+digits --> DIGIT | rest_digits
+rest_digits --> DIGIT + rest_digits
+DIGIT           --> "0"| .... |"9"

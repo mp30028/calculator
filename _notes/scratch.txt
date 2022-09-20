@@ -1,0 +1,12 @@
+'remove_if' was not declared in this scope
+C:\Program Files\CodeBlocks\MinGW\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\bits\predefined_ops.h|283|
+
+error: must use '.*' or '->*' to call pointer-to-member function in '((__gnu_cxx::__ops::_Iter_pred<bool (Utils::*)(unsigned char)>*)this)->__gnu_cxx::__ops::_Iter_pred<bool (Utils::*)(unsigned char)>::_M_pred (...)', e.g. '(... ->* ((__gnu_cxx::__ops::_Iter_pred<bool (Utils::*)(unsigned char)>*)this)->__gnu_cxx::__ops::_Iter_pred<bool (Utils::*)(unsigned char)>::_M_pred) (...)'|
+
+
+C:\Users\Extra\Documents\cpp_projects\calculator\src\utils.cpp|5|error:
+ cannot declare member function 'static bool Utils::isSpace(unsigned char)' to have static linkage [-fpermissive]|
+
+
+ C:\Users\Extra\Documents\cpp_projects\calculator\main.cpp|12|
+ undefined reference to `calc_utils::clean(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'|
